@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+ <html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/xhtml"> 
+ <head> 
+     <meta charset="UTF-8"/> 
+     <meta name="viewport" 
+           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/> 
+     <meta http-equiv="X-UA-Compatible" content="ie=edge"/> 
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	 <link rel="stylesheet" href="css/style.css"/>
+     <title></title> 
+ </head> 
+<body>
+<h4>index page, spring-rest like server side + ajax front end side</h4>
+<br>
+<div class="btn-group">
+   <button id="showAll" type="button" class="btn btn-primary">show all</button>
+   <button id="oneById" type="button" class="btn btn-primary">find by id</button>
+   <button id="update" type="button" class="btn btn-primary">update nickname</button>
+   <button id="save" type="button" class="btn btn-primary">save new user</button>
+   <button type="button" class="btn btn-primary">five</button>
+</div>
+<input id="input" type="number" >
+<br>
+<span>new user fields</span>
+<input id="name" type="text">
+<input id="nickname" type="text">
+<br>
+<div id="monitor">
+	<p>response message show</p>
+</div>
+<script src="script/javaScript.js"></script>	
+</body>
+</html>
